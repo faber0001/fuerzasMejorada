@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    background-color: #120A8F;
+}
+#container{
+    height: 150px;
+    background-color:#000;
+   
+    display:grid;
+    place-items: center;
+    }
+
+#wAlert {
+ border:3px  #6a581c;
+ background-color: #120A8F;
+ color: #fff;
+ border-radius: 5px;
+ width: 135px;
+ height: 90px;
+ padding:15px;
+ 
+}
+#wAlert1 {
+    border:3px  #6a581c;
+    background-color: #120A8F;
+    color: #fff;
+    border-radius: 5px;
+    width: 135px;
+    height: 90px;
+    padding:15px;
+    display:none;
+   }
+   #wAlert2 {
+    border:3px  #6a581c;
+    background-color: #120A8F;
+    color: #fff;
+    border-radius: 5px;
+    width: 135px;
+    height: 90px;
+    padding:15px;
+    display:none;
+    
+   }
+
+#boxText{
+    width: 122px;
+    margin-top: 7px;
+}
+#boxText1{
+    width: 122px;
+    margin-top: 7px;
+}
+#boxText2{
+    width: 122px;
+    margin-top: 7px;
+}
+#btnOk{
+    
+     margin-top: 10px;
+     margin-right: 8px;S
+}
+#btnCancel{
+    
+     margin-top: 10px;
+     margin-right: 4px;
+}
