@@ -1,6 +1,6 @@
 
 /* global array1 */
-
+swal("BIENVENIDO", "Calcula la fuerza", "success");
 alert("BIENVENIDO");
     var  date = Number(prompt("Digita datos a consultar"));
        
@@ -467,4 +467,7 @@ for (let i = 0; i < date; i++) {
     aus++;
     x = y;
     alert("verificado");
+    if(aus>1){
+        swal("Empiece a operar", "Los eventos son mayores a: "+aus, "success");
+    }
 };
