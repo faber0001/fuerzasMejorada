@@ -1,6 +1,4 @@
-// ES6 Modules or TypeScript
-import Swal from 'sweetalert2';
-const Swal = require('sweetalert2');
+// ES6 Modules or TypeScrip
 /* global array1 */
 
 alert("BIENVENIDO");
@@ -458,5 +456,7 @@ for (let i = 0; i < date; i++) {
     }
     aus++;
     x = y;
+    if(aus>3){
     alert("verificado");
+    }
 };
