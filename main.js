@@ -1,4 +1,6 @@
-
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2';
+const Swal = require('sweetalert2');
 /* global array1 */
 Swal.fire(
     'Good job!',
@@ -7,23 +9,13 @@ Swal.fire(
   )
 alert("BIENVENIDO");
     var  date = Number(prompt("Digita datos a consultar"));
-       
-
-     
-    
-     
-    
-    
-    
+          
     
     while (date === null || date === "00") {
        date = Number(prompt("debes ingresar solo numeros"));
      
        console.log("Number date "+ date);
        }
-
-
-
 
 var x = Number(prompt("Ingresa numero guia"));
  //var x = Number(document.getElementById('boxText1').value);
