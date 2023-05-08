@@ -466,5 +466,5 @@ for (let i = 0; i < date; i++) {
     }
     aus++;
     x = y;
-    alert("verificado");
+    alert("verificado"+aci);
 };
