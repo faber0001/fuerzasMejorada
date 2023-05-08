@@ -1,6 +1,10 @@
 
 /* global array1 */
-
+Swal.fire(
+    'Good job!',
+    'You clicked the button!',
+    'success'
+  )
 alert("BIENVENIDO");
     var  date = Number(prompt("Digita datos a consultar"));
        
