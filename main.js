@@ -1,25 +1,17 @@
-
+// ES6 Modules or TypeScript
+import Swal from 'sweetalert2';
+const Swal = require('sweetalert2');
 /* global array1 */
-swal("BIENVENIDO", "Calcula la fuerza", "success");
+
 alert("BIENVENIDO");
     var  date = Number(prompt("Digita datos a consultar"));
-       
-
-     
-    
-     
-    
-    
-    
+          
     
     while (date === null || date === "00") {
        date = Number(prompt("debes ingresar solo numeros"));
      
        console.log("Number date "+ date);
        }
-
-
-
 
 var x = Number(prompt("Ingresa numero guia"));
  //var x = Number(document.getElementById('boxText1').value);
@@ -467,7 +459,4 @@ for (let i = 0; i < date; i++) {
     aus++;
     x = y;
     alert("verificado");
-    if(aus>1){
-        swal("Empiece a operar", "Los eventos son mayores a: "+aus, "success");
-    }
 };
