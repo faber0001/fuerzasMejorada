@@ -72,10 +72,7 @@ for (let i = 0; i < date; i++) {
     }
     console.log(y);
 
-    if (x === 0 && y === 28 || x === 0 && y === 9 || x === 0 
-        && y === 26|| x === 0 && y === 2 || x === 0 && y === 14 || x === 0 
-        && y === 35|| x === 0 
-        && y === 0) {
+    if (x === 0 && y === 28 || x === 0 && y === 9 || x === 0 && y === 26 || x === 0 && y === 2 || x === 0 &&y === 14 || x === 0  && y === 35 || x === 0  && y === 0) {
 
         aci = i + 1;
         five0.unshift(aci);
@@ -86,7 +83,8 @@ for (let i = 0; i < date; i++) {
 
         alert('Factor 5: ' + '[ ' + five0 + ' ]' + " Sector " + "( " + x + " )"+ " " + "( " + y + ")");
 
-    } else if (x === 1 && y === 13 || x === 1 && y === 36|| x === 1 && y === 24 || x === 1 && y === 37 || x === 1 && y === 27 || x === 1 && y === 10|| x === 1 && y === 1) {
+    } else if (x === 1 && y === 13 || x === 1 && y === 36|| x === 1 && y === 24 
+             || x === 1 && y === 37 || x === 1 && y === 27 || x === 1 && y === 10|| x === 1 && y === 1) {
 
         five1.unshift((i + 1));
         console.log("Eventos :  " + "[ " + five0 + " ]");
@@ -97,7 +95,7 @@ for (let i = 0; i < date; i++) {
 
 
 
-    } else if (x === 2 && y === 14|| x === 2 && y === 35|| x === 2 && y === 23 || x === 2 && y === 0 || x === 2 && y === 28|| x === 2 && y === 9|| x === 2 && y === 26|| x === 2 && y === 2) {
+    } else if (x === 2 && y === 14|| x === 2 && y === 35  || x === 2 && y === 23  || x === 2 && y === 0 || x === 2 && y === 28 || x === 2 && y === 9 || x === 2 && y === 26|| x === 2 && y === 2) {
 
         five2.unshift((i + 1));
         console.log(five2);
@@ -106,7 +104,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv2').innerHTML = 'Factor 5: ' + '[ ' + five2 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
 
-    } else if (x === 3 && y === 15 || x === 3 && y === 34 || x === 3 && y === 22 || x === 3 && y === 24|| x === 3 && y === 36 || x === 3 && y === 13|| x === 3 && y === 3) {
+    } else if (x === 3 && y === 15 || x === 3 && y === 34 || x === 3 && y === 22 || 
+                x === 3 && y === 24|| x === 3 && y === 36 || x === 3 && y === 13|| x === 3 && y === 3) {
 
         five3.unshift((i + 1));
         console.log(five3);
@@ -115,7 +114,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv3').innerHTML = 'Factor 5: ' + '[ ' + five3 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
 
-    }else if (x === 4 && y === 16 || x === 4 && y === 33 || x === 4 && y === 21|| x===4 && y === 23 || x === 4 && y === 35 || x === 4 && y ===14|| x === 4 && y ===4) {
+    }else if (  x === 4 && y === 16 || x === 4 && y === 33 || x === 4 && y === 21 ||
+                x === 4 && y === 23 || x === 4 && y === 35 || x === 4 && y === 14 || x === 4 && y ===4) {
 
         five4.unshift((i + 1));
         console.log(five4);
@@ -124,7 +124,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv4').innerHTML = 'Factor 5: ' + '[ ' + five4 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
 
-    }else if (x === 5 && y === 22 || x === 5 && y === 34|| x === 5 && y === 15 || x === 5 && y === 17 || x === 5 && y === 32 || x === 5 && y === 20|| x === 5 && y === 5) {
+    }else if (x === 5 && y === 22 || x === 5 && y === 34 || x === 5 && y === 15 ||
+              x === 5 && y === 17 || x === 5 && y === 32 || x === 5 && y === 20 || x === 5 && y === 5) {
 
         five5.unshift((i + 1));
         console.log(five5);
@@ -133,7 +134,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv5').innerHTML = 'Factor 5: ' + '[ ' + five5 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
        
-    }else if (x === 6 && y === 21 || x === 6 && y === 33 || x === 6 && y === 16  || x === 6 && y === 18 || x === 6 && y === 31 || x === 6 && y === 19  || x === 6 && y === 6) {
+    }else if (x === 6 && y === 21 || x === 6 && y === 33  || x === 6 && y === 16  ||
+              x === 6 && y === 18  || x === 6 && y === 31 || x === 6 && y === 19  || x === 6 && y === 6) {
 
         five6.unshift((i + 1));
         console.log(five6);
@@ -142,7 +144,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv6').innerHTML = 'Factor 5: ' + '[ ' + five6 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 7 && y === 11 || x === 7 && y === 30|| x === 7 && y === 26  || x === 7 && y === 20 || x === 7 && y === 32|| x === 7 && y === 17 || x === 7 && y === 7) {
+    }else if (x === 7 && y === 11 || x === 7 && y === 30|| x === 7 && y === 26  ||
+              x === 7 && y === 20 || x === 7 && y === 32|| x === 7 && y === 17  || x === 7 && y === 7) {
 
         five7.unshift((i + 1));
         console.log(five7);
@@ -151,7 +154,7 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv7').innerHTML = 'Factor 5: ' + '[ ' + five7 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 8 && y === 12 || x === 8 && y === 29 || x === 8 && y === 25 || x === 8 && y === 19 || x === 8 && y === 31 || x === 8 && y === 18 || x === 8 && y === 8) {
+    }else if (x === 8 && y === 12 || x === 8 && y === 29 || x === 8 && y === 25 || x === 8 && y === 19 || x     === 8 && y === 31 || x === 8 && y === 18 || x === 8 && y === 8) {
 
         five8.unshift((i + 1));
         console.log(five8);
@@ -160,7 +163,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv8').innerHTML = 'Factor 5: ' + '[ ' + five8 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 9 && y === 28 || x === 9 && y === 0 || x === 9 && y === 2 || x === 9 && y === 26 || x === 9 && y === 30 || x === 9 && y === 11|| x === 9 && y === 9) {
+    }else if (x === 9 && y === 28 || x === 9 && y === 0 || x === 9 && y === 2 ||
+              x === 9 && y === 26 || x === 9 && y === 30 || x === 9 && y === 11|| x === 9 && y === 9) {
 
         five9.unshift((i + 1));
         console.log(five9);
@@ -169,7 +173,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv9').innerHTML = 'Factor 5: ' + '[ ' + five9 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 10 && y === 27 || x === 10 && y === 37|| x === 10 && y === 1|| x === 10 && y === 25 || x === 10 && y === 29 || x === 10 && y === 12|| x === 10 && y === 10) {
+    }else if (x === 10 && y === 27 || x === 10 && y === 37|| x === 10 && y === 1 ||
+              x === 10 && y === 25 || x === 10 && y === 29 || x === 10 && y === 12 || x === 10 && y === 10) {
 
         five10.unshift((i + 1));
         console.log(five10);
@@ -178,7 +183,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv10').innerHTML = 'Factor 5: ' + '[ ' + five10 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 11 && y === 7 || x === 11 && y === 20|| x === 11 && y === 32|| x === 11 && y === 30 || x === 11 && y === 26|| x === 11 && y === 9 || x === 11 && y === 11) {
+    }else if (x === 11 && y === 7 || x === 11 && y ===  20|| x === 11 && y === 32 ||
+              x === 11 && y === 30 || x === 11 && y === 26|| x === 11 && y === 9  || x === 11 && y === 11) {
 
         five11.unshift((i + 1));
         console.log(five11);
@@ -187,7 +193,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv11').innerHTML = 'Factor 5: ' + '[ ' + five11 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 12 && y === 8 || x === 12 && y === 19|| x === 12 && y === 31 || x === 12 && y === 29 || x === 12 && y === 25 || x === 12 && y === 10|| x === 12 && y === 12) {
+    }else if (x === 12 && y === 8 || x === 12 && y === 19  || x === 12 && y === 31 ||
+              x === 12 && y === 29 || x === 12 && y === 25 || x === 12 && y === 10 || x === 12 && y === 12) {
 
         five12.unshift((i + 1));
         console.log(five12);
@@ -196,7 +203,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv12').innerHTML = 'Factor 5: ' + '[ ' + five12 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
         
-    }else if (x === 13 && y === 1 || x === 13 && y === 37|| x === 13 && y === 27 || x === 13 && y === 36 || x === 13 && y === 24|| x === 13 && y === 3 || x === 13 && y === 13) {
+    }else if (x === 13 && y === 1 || x === 13 && y === 37|| x === 13 && y === 27 ||
+             x === 13 && y === 36 || x === 13 && y === 24|| x === 13 && y === 3  || x === 13 && y === 13) {
 
         five13.unshift((i + 1));
         console.log(five13);
@@ -205,7 +213,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv13').innerHTML = 'Factor 5: ' + '[ ' + five13 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 14 && y === 2 || x === 14 && y === 0 || x === 14 && y === 28|| x === 14 && y === 35 || x === 14 && y === 23 || x === 14 && y === 4|| x === 14 && y === 14) {
+    }else if (x === 14 && y === 2 || x === 14 && y === 0 || x === 14 && y === 28 ||
+              x === 14 && y === 35 || x === 14 && y === 23 || x === 14 && y === 4 || x === 14 && y === 14) {
 
         five14.unshift((i + 1));
         console.log(five14);
@@ -214,7 +223,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv14').innerHTML = 'Factor 5: ' + '[ ' + five14 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 15 && y === 34 || x === 15 && y === 22 || x === 15 && y === 5 || x === 15 && y === 3|| x === 15 && y === 24 || x === 15 && y === 36|| x === 15 && y === 15) {
+    }else if (x === 15 && y === 34 || x === 15 && y === 22 || x === 15 && y === 5 ||
+                x === 15 && y === 3|| x === 15 && y === 24 || x === 15 && y === 36 || x === 15 && y ==15) {
 
         five15.unshift((i + 1));
         console.log(five15);
@@ -223,7 +233,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv15').innerHTML = 'Factor 5: ' + '[ ' + five15 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 16 && y === 33 || x === 16 && y === 21|| x === 16 && y === 6 || x === 16 && y === 4 || x === 16 && y === 23 || x === 16 && y === 35|| x === 16 && y === 16) {
+    }else if (x === 16 && y === 33 || x === 16 && y === 21|| x === 16 && y === 6 ||
+              x === 16 && y === 4 || x === 16 && y === 23 || x === 16 && y === 35 || x === 16 && y === 16) {
 
         five16.unshift((i + 1));
         console.log(five16);
@@ -232,7 +243,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv16').innerHTML = 'Factor 5: ' + '[ ' + five16 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 17 && y === 5 || x === 17  && y === 22|| x === 17 && y === 34 || x === 17 && y === 32 || x === 17 && y === 20 || x === 17 && y === 11 || x === 17 && y === 17) {
+    }else if (x === 17 && y === 5 || x === 17  && y === 22 || x === 17 && y === 34 ||
+              x === 17 && y === 32 || x === 17 && y === 20 || x === 17 && y === 7  || x === 17 && y === 17) {
 
         five17.unshift((i + 1));
         console.log(five17);
@@ -241,7 +253,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv17').innerHTML = 'Factor 5: ' + '[ ' + five17 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 18 && y === 6 || x === 18  && y === 21 || x === 18 && y === 33|| x === 18 && y === 31 || x === 18 && y === 19 || x === 18 && y === 8|| x === 18 && y === 18) {
+    }else if (x === 18 && y === 6 || x === 18  && y === 21 || x === 18 && y === 33 ||
+              x === 18 && y === 31 || x === 18 && y === 19 || x === 18 && y === 8  || x === 18 && y === 18) {
 
         five18.unshift((i + 1));
         console.log(five18);
@@ -250,7 +263,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv18').innerHTML = 'Factor 5: ' + '[ ' + five18 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 19 && y === 31 || x === 19  && y === 18 || x === 19 && y === 6|| x === 19 && y === 8 || x === 19 && y === 12|| x === 19 && y === 29 || x === 19 && y === 19) {
+    }else if ( x === 19 && y === 31 || x === 19  && y === 18 || x === 19 && y === 6  ||
+               x === 19 && y === 8 || x === 19 &&   y === 12 || x === 19 && y === 29 || x === 19 && y === 19) {
 
         five19.unshift((i + 1));
         console.log(five19);
@@ -259,7 +273,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv19').innerHTML = 'Factor 5: ' + '[ ' + five19 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 20 && y === 32 || x === 20  && y === 17|| x === 20 && y === 5 || x === 20 && y === 7 || x === 20 && y === 11|| x === 20 && y === 30 || x === 20 && y === 20) {
+    }else if (x === 20 && y === 32 || x === 20  && y === 17 || x === 20 && y === 5 ||
+              x === 20 && y === 7 || x === 20 && y === 11   || x === 20 && y === 30  || x === 20 && y === 20) {
 
         five20.unshift((i + 1));
         console.log(five20);
@@ -268,7 +283,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv20').innerHTML = 'Factor 5: ' + '[ ' + five20 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 21 && y === 6 || x === 21  && y === 18|| x === 21 && y === 31  || x === 21 && y === 33 || x === 21 && y === 16 || x === 21 && y === 4 || x === 21 && y === 21) {
+    }else if (x === 21 && y === 6 || x === 21  && y === 18 || x === 21 && y === 31 ||
+              x === 21 && y === 33 || x === 21 && y === 16 || x === 21 && y === 4  || x === 21 && y === 21) {
 
         five21.unshift((i + 1));
         console.log(five21);
@@ -277,7 +293,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv21').innerHTML = 'Factor 5: ' + '[ ' + five21 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 22 && y === 5 || x === 22  && y === 17  || x === 22 && y === 32 || x === 22 && y === 34 || x === 22 && y === 15  || x === 22 && y === 3 || x === 22 && y === 22) {
+    }else if (x === 22 && y === 5 || x === 22  && y === 17  || x === 22 && y === 32 ||
+              x === 22 && y === 34 || x === 22 && y === 15  || x === 22 && y === 3  || x === 22 && y === 22) {
 
         five22.unshift((i + 1));
         console.log(five22);
@@ -286,7 +303,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv22').innerHTML = 'Factor 5: ' + '[ ' + five22 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 23 && y === 4 || x === 23  && y === 16 || x === 23 && y === 33 || x === 23 && y === 35 || x === 23 && y === 14 || x === 23 && y === 2 || x === 23 && y === 23) {
+    }else if (x === 23 && y === 4 || x === 23  && y === 16 || x === 23 && y === 33 ||
+              x === 23 && y === 35 || x === 23 && y === 14 || x === 23 && y === 2  || x === 23 && y === 23) {
 
         five23.unshift((i + 1));
         console.log(five23);
@@ -295,7 +313,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv23').innerHTML = 'Factor 5: ' + '[ ' + five23 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 24 && y === 3 || x === 24  && y === 15|| x === 24 && y === 34 || x === 24 && y === 36 || x === 24 && y === 13 || x === 24 && y === 1 || x === 24 && y === 24) {
+    }else if ( x === 24 && y === 3 || x === 24  && y === 15 || x === 24 && y === 34 ||
+               x === 24 && y === 36 || x === 24 && y === 13 || x === 24 && y === 1 || x === 24 && y === 24) {
 
         five24.unshift((i + 1));
         console.log(five24);
@@ -304,7 +323,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv24').innerHTML = 'Factor 5: ' + '[ ' + five24 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 25 && y === 10 || x === 25  && y === 27  || x === 25 && y === 37 || x === 25 && y === 29 || x === 25 && y === 12 || x === 25 && y === 8 || x === 25 && y === 25) {
+    }else if (x === 25 && y === 10 || x === 25  && y === 27  || x === 25 && y === 37 ||
+                x === 25 && y === 29 || x === 25 && y === 12 || x === 25 && y === 8 || x === 25 && y === 25) {
 
         five25.unshift((i + 1));
         console.log(five25);
@@ -313,7 +333,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv25').innerHTML = 'Factor 5: ' + '[ ' + five25 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
    
-    }else if (x === 26 && y === 9 || x === 26  && y === 28 || x === 26 && y === 0 || x === 26 && y === 30 || x === 26 && y === 11|| x === 26 && y === 7  || x === 26 && y === 26) {
+    }else if (x === 26 && y === 9 || x === 26  && y === 28 || x === 26 && y === 0 ||
+               x === 26 && y === 30 || x === 26 && y === 11|| x === 26 && y === 7 || x === 26 && y === 26) {
 
         five26.unshift((i + 1));
         console.log(five26);
@@ -331,7 +352,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv27').innerHTML = 'Factor 5: ' + '[ ' + five27 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
   
-    }else if (x === 28 && y === 0 || x === 28  && y === 2  || x === 28 && y === 14 || x === 28 && y === 9 || x === 28 && y === 26  || x === 28 && y === 30 || x === 28 && y === 28) {
+    }else if (x === 28 && y === 0 || x === 28  && y === 2  || x === 28 && y === 14 ||
+              x === 28 && y === 9 || x === 28 && y === 26  || x === 28 && y === 30 || x === 28 && y === 28) {
 
         five28.unshift((i + 1));
         console.log(five28);
@@ -349,7 +371,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv29').innerHTML = 'Factor 5: ' + '[ ' + five29 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 30 && y === 26 || x === 30  && y === 9|| x === 30 && y === 28 || x === 30 && y === 11 || x === 30 && y === 7|| x === 30 && y === 20 || x === 30 && y === 30) {
+    }else if (x === 30 && y === 26 || x === 30  && y === 9|| x === 30 && y === 28 ||
+              x === 30 && y === 11 || x === 30 && y === 7|| x === 30 && y === 20 || x === 30 && y === 30) {
 
         five30.unshift((i + 1));
         console.log(five30);
@@ -358,7 +381,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv30').innerHTML = 'Factor 5: ' + '[ ' + five30 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 31 && y === 19 || x === 31  && y === 8|| x === 31 && y === 12  || x === 31 && y === 18 || x === 31 && y === 6 || x === 31 && y === 21 || x === 31 && y === 31) {
+    }else if (x === 31 && y === 19 || x === 31  && y === 8||  x === 31 && y === 12  ||
+              x === 31 && y === 18 || x === 31 && y === 6 ||  x === 31 && y === 21  || x === 31 && y === 31) {
 
         five31.unshift((i + 1));
         console.log(five31);
@@ -367,7 +391,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv31').innerHTML = 'Factor 5: ' + '[ ' + five31 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 32 && y === 20 || x === 32  && y === 7|| x === 32 && y === 11 || x === 32 && y === 17 || x === 32 && y === 5 || x === 32 && y === 22 || x === 32 && y === 32) {
+    }else if (x === 32 && y === 20 || x === 32  && y === 7|| x === 32 && y === 11 ||
+              x === 32 && y === 17 || x === 32 && y === 5 || x === 32 && y === 22 || x === 32 && y === 32) {
 
         five31.unshift((i + 1));
         console.log(five32);
@@ -376,7 +401,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv32').innerHTML = 'Factor 5: ' + '[ ' + five32 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 33 && y === 21 || x === 33  && y === 6 || x === 33 && y === 18|| x === 33 && y === 16 || x === 33 && y === 4 || x === 33 && y === 23 || x === 33 && y === 33) {
+    }else if (x === 33 && y === 21 || x === 33  && y === 6 ||x === 33 && y === 18 ||
+              x === 33 && y === 16 || x === 33 && y === 4 || x === 33 && y === 23 || x === 33 && y === 33) {
 
         five33.unshift((i + 1));
         console.log(five33);
@@ -385,7 +411,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv33').innerHTML = 'Factor 5: ' + '[ ' + five33 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 34 && y === 22 || x === 34  && y === 5|| x === 34 && y === 17 || x === 34 && y === 15 || x === 34 && y === 3|| x === 34 && y === 24 || x === 34 && y === 34) {
+    }else if ( x === 34 && y === 22 || x === 34  && y === 5|| x === 34 && y === 17 ||
+               x === 34 && y === 15 || x === 34 && y === 3|| x === 34 && y === 24 || x === 34 && y === 34) {
 
         five34.unshift((i + 1));
         console.log(five34);
@@ -394,7 +421,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv34').innerHTML = 'Factor 5: ' + '[ ' + five34 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 35 && y === 23 || x === 35  && y === 4 || x === 35 && y === 16 || x === 35 && y === 14 || x === 35 && y === 2|| x === 35 && y === 0 || x === 35 && y === 35) {
+    }else if (  x === 35 && y === 23 || x === 35  && y === 4 || x === 35 && y === 16 ||
+                x === 35 && y === 14 || x === 35 && y === 2||x === 35 && y === 0 || x === 35 && y === 35) {
 
         five35.unshift((i + 1));
         console.log(five35);
@@ -403,7 +431,8 @@ for (let i = 0; i < date; i++) {
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv35').innerHTML = 'Factor 5: ' + '[ ' + five35 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
     
-    }else if (x === 36 && y === 24 || x === 36 && y === 3|| x === 36 && y === 15 || x === 36 && y === 13 || x === 36 && y === 1|| x === 36 && y === 37 || x === 36 && y === 36) {
+    }else if (x === 36 && y === 24 || x === 36 && y === 3|| x === 36 && y === 15 ||
+              x === 36 && y === 13 || x === 36 && y === 1|| x === 36 && y === 37 || x === 36 && y === 36) {
 
         five36.unshift((i + 1));
         console.log(five36);
@@ -411,7 +440,8 @@ for (let i = 0; i < date; i++) {
         aus = 0;
         alert("factor 5 en el evento:  " + "[ " + aci + " ]" + "  El numero: " + "(" + x + ")" + " " + "( " + y + ")");
         document.getElementById('fiv36').innerHTML = 'Factor 5: ' + '[ ' + five36 + ' ]' + " Sector " + "( " + x + " )" + " " + "( " + y + ")";
-    }else if (x === 37 && y === 1 || x === 37 && y === 13  || x === 37 && y === 36 || x === 37 && y === 27 || x === 37 && y === 10  || x === 37 && y === 25 || x === 37 && y === 37) {
+    }else if (x === 37 && y === 1  || x === 37 && y === 13  || x === 37 && y === 36 || 
+              x === 37 && y === 27 || x === 37 && y === 10  || x === 37 && y === 25 || x === 37 && y === 37) {
 
         five37.unshift((i + 1));
         console.log(five37);
