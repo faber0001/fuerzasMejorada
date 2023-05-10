@@ -486,7 +486,7 @@ for (let i = 0; i < date; i++) {
     }
     aus++;
     x = y;
-    if(aus>3){
+    if(aus>5){
     alert(" !AMIGO YA ES HORA !");
     }
 };
