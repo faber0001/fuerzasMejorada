@@ -487,6 +487,6 @@ for (let i = 0; i < date; i++) {
     aus++;
     x = y;
     if(aus>3){
-    alert(" !AMIGO YA ES HORA");
+    alert("verificado");
     }
 };
